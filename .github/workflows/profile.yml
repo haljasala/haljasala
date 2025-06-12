@@ -21,6 +21,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.base.svg
+          repositories_affiliations: owner, collaborator
 
       # Full-year calendar
       - name: Full-year calendar
